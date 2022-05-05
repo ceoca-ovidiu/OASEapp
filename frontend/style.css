@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('oi.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app {
+  margin: 30px auto 0 auto;
+  /*width: 90%;*/
+  min-width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.messages {
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  width: 98.5%;
+  height: 60%;
+  overflow: auto;
+  background-color: #8EADCCB3;
+  max-height: 400px;
+  min-height: 300px;
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*background-size: 100% 100%;*/
+}
+.main-content{
+  display:none;
+}
+p {
+  margin: 0px;
+  font-size: 30px;
+  color: white;
+}
+.main-content{
+  min-width: 98%;
+}
+.message {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  padding: 7px;
+  width: 96%;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  outline: none;
+}
+.message-bar {
+  overflow: clip;
+}
+.message-bar input {
+  width: 80%;
+}
+.message-bar button {
+  width: 16%;
+}
+.message:focus {
+  border: 1px solid #0053c0;
+  background-color: #f1f1f1;
+}
+
+#dark-mode-button {
+  width: 100px;
+}
+
+.send-button {
+  border: 0px;
+  background-color: #0053c0;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+  width: 60px;
+}
+
+.send-button:hover {
+  background-color: #ffbc42;
+  cursor: pointer;
+  color: black;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 500px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button {
+  border: 0px;
+  width: 45%;
+  background-color: #0053c0;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+}
+
+.login-button:hover {
+  background-color: #ffbc42;
+  cursor: pointer;
+  color: black;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
