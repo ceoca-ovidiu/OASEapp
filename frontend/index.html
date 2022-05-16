@@ -1,44 +1,50 @@
 <html>
-  <head>
-    <title>Chat client</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="app">
-      <h1 id="title" style="text-align: center;">OASEapp</h1>
-      <div class="login-content">
-        <div class="login-container">
-          <form>
-            <h3>Username</h3>
-            <input type="text" class="form-control" placeholder="Type in your username"></input>
-            <h3>Password</h3>
-            <input type="password" class="form-control" placeholder="Type in your password"></input> </br>
-            <div class="login-buttons">
-              <button type="submit" class="login-button">Login</button>
-              <button type="submit" class="login-button">Sign up</button>
-            </div>
-          </form>
+<head>
+  <title>Chat client</title>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+          rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="app">
+  <h1 id="title" style="text-align: center;">OASEapp</h1>
+  <div class="login-content" id="login-content">
+    <div id="form" class="login-container">
+      <form>
+        <h3>Username</h3>
+        <input type="text" id="userInput" placeholder="Type in your username">
+        <h3>Password</h3>
+        <input type="password" id="passInput" placeholder="Type in your password">
+        </br>
+        <div class="login-buttons">
+          <button class="login-button" id="loginButton">Login</button>
+          <button type="submit" class="login-button" id="register">Sign up</button>
         </div>
-      </div>
+      </form>
 
-      <div class="main-content">
-      <button class="send-button" id="dark-mode-button">Dark Mode</button>
-      <h3 id="client-id" style="text-align: center;"></h3>
-      <div class="messages"></div>
-      <div class="message-bar"><input
-              class="message"
-              type="text"
-              id="message"
-              placeholder="Sheep a message"
-      />
-        <button class="send-button" id="send">Send</button></div>
-      </div>
     </div>
-    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
-    <script src="client.js"></script>
-  </body>
+  </div>
+
+  <div class="main-content" id="main-content">
+    <button class="send-button" id="dark-mode-button">Dark Mode</button>
+    <button class="log-out" id="logout">Logout</button>
+
+    <h3 id="client-id" style="text-align: center;"></h3>
+    <div class="messages"></div>
+    <div class="message-bar">
+      <label for="message"></label><input
+            class="message"
+            type="text"
+            id="message"
+            placeholder="Sheep a message"
+    />
+      <button class="send-button" id="send">Send</button>
+    </div>
+  </div>
+</div>
+<script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+<script src="client.js"></script>
+</body>
 </html>

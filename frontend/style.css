@@ -40,7 +40,7 @@ body {
   display:none;
 }
 p {
-  margin: 0px;
+  margin: 0;
   font-size: 30px;
   color: white;
 }
@@ -75,12 +75,28 @@ p {
 }
 
 .send-button {
-  border: 0px;
+  border: 0;
   background-color: #0053c0;
   border-radius: 15px;
   color: white;
   padding: 8px;
   width: 60px;
+}
+
+.log-out {
+  border: 0;
+  float: right;
+  background-color: #0053c0;
+  border-radius: 15px;
+  color: white;
+  padding: 8px;
+  width: 60px;
+}
+
+.log-out:hover {
+  background-color: #ffbc42;
+  cursor: pointer;
+  color: black;
 }
 
 .send-button:hover {
@@ -103,7 +119,7 @@ p {
 }
 
 .login-button {
-  border: 0px;
+  border: 0;
   width: 45%;
   background-color: #0053c0;
   border-radius: 15px;
