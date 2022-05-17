@@ -1,0 +1,26 @@
+[
+  {
+    "username": "asd",
+    "password": "$2b$10$KB4nZAJasg5WWbNRRDgKP.sSBzvCAc0slH9.zsHEYgQ0EcpqQKSwC"
+  },
+  {
+    "username": "admin",
+    "password": "$2b$10$ATSNmsyfppC3PgsVUU2eTu8pyLaT/TYsg5bGCPemqzshXMjj2trpW"
+  },
+  {
+    "username": "Ovi",
+    "password": "$2b$10$6c4fLov.Og7vLGBPZXOhdOt0YVyZB5/8JIQN6dHx5Wdj6hzMV3cx2"
+  },
+  {
+    "username": "Andrei",
+    "password": "$2b$10$Y2/BO8eUj0W4uCa.0ebPGe.s/mCn/kz5nT.Ynmg3gm/y7iGIvG1AK"
+  },
+  {
+    "username": "Sergiu",
+    "password": "$2b$10$f02n4ZnQYcjZeVN7mOLl3uEx1rEQOsViHLZMRr6WfHVCpVIaVIiku"
+  },
+  {
+    "username": "Ervin",
+    "password": "$2b$10$VSQuhqj/iuawaJOs1gl4qOu6R5VtLFPvt9Uz8EtJF63J3azUs9xqS"
+  }
+]
